@@ -4,17 +4,18 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 
 const network = NETWORK.sol;
 
-// General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+// General metadata for Ethereum & Solana
+const namePrefix = "Geo Genesis";
+const description = "MyGeoTokens Genesis NFT collection.";
+// not relevant for Solana
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "MGT",
-  seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
+  seller_fee_basis_points: 0, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://mygeotokens.com/",
-  collection: "Geo Golden Eggs",
-  series: "Genesis",
+  collection: "Geo Genesis",
+  series: "0",
   creators: [
     {
       address: "EwHcmBEPHMnWdaTqg6BdWC2N5Dz2ivww11EswQ5fe2aL",
@@ -26,7 +27,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3330,
+    growEditionSizeTo: 33,
     layersOrder: [
       {name: "Ghost1"},
       {name: "Ghost2"},
