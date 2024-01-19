@@ -18,7 +18,7 @@ const solanaMetadata = {
   series: "0",
   creators: [
     {
-      address: "EwHcmBEPHMnWdaTqg6BdWC2N5Dz2ivww11EswQ5fe2aL",
+      address: "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix",
       share: 100,
     },
   ],
