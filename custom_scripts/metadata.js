@@ -12,7 +12,7 @@ const geoMapping = {
 
 // Define the distribution of 'Geos'
 const geoDistribution = {
-  'mapping': 1799,
+  'mapping': 1800,
   'potus': 900,
   'cliff_hanger': 450,
   'globe': 150,
@@ -61,58 +61,54 @@ try {
   // Sort the files to get the last one
   jsonFiles.sort();
 
-  // Open the last json file
-  let data = JSON.parse(fs.readFileSync(path.join('build/json', jsonFiles[jsonFiles.length - 1])));
-
-  console.log(`Opened last JSON file: ${jsonFiles[jsonFiles.length - 1]}`);
-
-  // Get the image name
-  let imageName = data['properties']['files'][0]['uri'];
-
-  console.log(`Image name from last JSON file: ${imageName}`);
-
-  // Copy the image and rename it
-  fs.copyFileSync(path.join('build/images', imageName), path.join('build/images', path.basename(jsonFiles[jsonFiles.length - 1], '.json') + '.png'));
-
-  console.log(`Copied and renamed image to: ${path.basename(jsonFiles[jsonFiles.length - 1], '.json')}.png`);
-
-  // Open the template json file
-  let template = JSON.parse(fs.readFileSync('template.json'));
-
-  console.log('Opened template.json');
-
   // Get the current number from the last file name
   let currentNumber = parseInt(path.basename(jsonFiles[jsonFiles.length - 1], '.json'));
 
   console.log(`Current number: ${currentNumber}`);
 
-  // Increment the number for the new file
-  let newNumber = currentNumber + 1;
+  // Loop to generate 3333 files
+  for (let i = 0; i < 3333; i++) {
+    // Increment the number for the new file
+    let newNumber = currentNumber + i + 1;
 
-  console.log(`New number: ${newNumber}`);
+    console.log(`New number: ${newNumber}`);
 
-  // Update the template with the new number
-  template['name'] = `Geo Genesis #${newNumber}`;
-  template['image'] = `${newNumber}.png`;
-  template['edition'] = newNumber;
-  template['properties']['files'][0]['uri'] = `${newNumber}.png`;
+    // Open the last json file
+    let data = JSON.parse(fs.readFileSync(path.join('build/json', `${currentNumber + i}.json`)));
 
-  console.log('Updated template with new number');
+    console.log(`Opened JSON file: ${currentNumber + i}.json`);
 
-  // Get the base name of the image file without the extension
-  let baseImageName = path.basename(imageName, '.png');
+    // Open the template json file
+    let template = JSON.parse(fs.readFileSync('custom_scripts/template.json'));
 
-  console.log(`Base image name: ${baseImageName}`);
+    console.log('Opened template.json');
 
-  // Update the 'Geo' attribute based on the image file name and the randomized distribution
-  template['attributes'][0]['value'] = geoMapping[geoArray[newNumber]];
+    // Update the template with the new number
+    template['name'] = `Geo Genesis #${newNumber}`;
+    template['image'] = `${newNumber}.png`;
+    template['edition'] = newNumber;
+    template['properties']['files'][0]['uri'] = `${newNumber}.png`;
 
-  console.log(`Updated 'Geo' attribute to: ${geoMapping[geoArray[newNumber]]}`);
+    console.log('Updated template with new number');
 
-  // Create a new json file based on the template
-  fs.writeFileSync(path.join('build/json', `${newNumber}.json`), JSON.stringify(template, null, 4));
+    // Update the 'Geo' attribute based on the image file name and the randomized distribution
+    let geoValue = geoMapping[geoArray[newNumber % geoArray.length]];
+    template['attributes'][0]['value'] = geoValue;
 
-  console.log(`Created new JSON file: ${newNumber}.json`);
+    console.log(`Updated 'Geo' attribute to: ${geoValue}`);
+
+    // Copy the image that matches the 'Geo' attribute and rename it
+    let geoKey = Object.keys(geoMapping).find(key => geoMapping[key] === geoValue);
+    fs.copyFileSync(path.join('custom_scripts/images', `${geoKey}.png`), path.join('build/images', `${newNumber}.png`));
+
+    console.log(`Copied and renamed image to: ${newNumber}.png`);
+
+    // Create a new json file based on the template
+    fs.writeFileSync(path.join('build/json', `${newNumber}.json`), JSON.stringify(template, null, 4));
+
+    console.log(`Created new JSON file: ${newNumber}.json`);
+  }
+
   console.log('Script completed.');
 } catch (error) {
   console.error(`An error occurred: ${error.message}`);

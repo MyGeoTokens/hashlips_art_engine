@@ -20,7 +20,8 @@
     "update_info": "node utils/update_info.js",
     "preview_gif": "node utils/preview_gif.js",
     "generate_metadata": "node utils/generate_metadata.js",
-    "gen": "node custom_scripts/metadata.js"
+    "gen": "node custom_scripts/metadata.js",
+    "gen_gif": "node custom_scripts/metadata_gifs.js"
   },
   "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",
