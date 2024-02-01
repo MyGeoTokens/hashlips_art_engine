@@ -42,11 +42,11 @@
           },
           "allocation" : {
             "id": 1,
-            "limit": 8
+            "limit": 31
           },
           "mintLimit" : {
             "id": 1,
-            "limit": 3
+            "limit": 5
           }
         }
       },

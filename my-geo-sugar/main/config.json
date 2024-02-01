@@ -7,7 +7,7 @@
   "isSequential": true,
   "creators": [
     {
-      "address": "5UsfCtHpcQmEcqcmidXs3rDbPQMaf4MCXq8p5WsgG9vd",
+      "address": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix",
       "share": 100
     }
   ],
@@ -46,7 +46,7 @@
           },
           "mintLimit" : {
             "id": 1,
-            "limit": 3
+            "limit": 1
           }
         }
       },
@@ -82,6 +82,14 @@
           "solPayment": {
             "value": 2.50,
             "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
+          },
+          "allocation" : {
+            "id": 3,
+            "limit": 3333
+          },
+          "mintLimit" : {
+            "id": 3,
+            "limit": 25
           }
         }
       }
