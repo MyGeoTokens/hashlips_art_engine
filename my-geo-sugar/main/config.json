@@ -1,0 +1,91 @@
+{
+  "tokenStandard": "nft",
+  "number": 3333,
+  "symbol": "MGT",
+  "sellerFeeBasisPoints": 0,
+  "isMutable": true,
+  "isSequential": true,
+  "creators": [
+    {
+      "address": "5UsfCtHpcQmEcqcmidXs3rDbPQMaf4MCXq8p5WsgG9vd",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "nft_storage",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI3MkJBQTdjNzFlNDNENDBlZjY5NDZCMUQ2MDc2YmFDOTI1MDY2Y0YiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTcwNTYwMDU0MzE1OCwibmFtZSI6Ik15R2VvVG9rZW5zIn0.8NAUIEDCmkVW5NyJ3_gr8yCCcGIm0-GZejcVU5vA0Uk",
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+   "guards": {
+    "default": {
+      "botTax": {
+        "value": 0.01,
+        "lastInstruction": true
+      }
+    },
+    "groups": [
+      {
+        "label": "Free",
+        "guards": {
+          "startDate": {
+            "date": "2024-01-31 00:00:00 +0000"
+          },
+          "solPayment": {
+            "value": 0.00,
+            "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
+          },
+          "allowList" : {
+            "merkleRoot": "c16d2995b046d8527518a8170c0f663545814e5e333e539811ad77d4d32ad39a"
+          },
+          "allocation" : {
+            "id": 1,
+            "limit": 8
+          },
+          "mintLimit" : {
+            "id": 1,
+            "limit": 3
+          }
+        }
+      },
+      {
+        "label": "OGs",
+        "guards": {
+          "startDate": {
+            "date": "2024-02-01 00:00:00 +0000"
+          },
+          "solPayment": {
+            "value": 2.00,
+            "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
+          },
+          "allowList" : {
+            "merkleRoot": "c16d2995b046d8527518a8170c0f663545814e5e333e539811ad77d4d32ad39a"
+          },
+          "allocation" : {
+            "id": 2,
+            "limit": 3333
+          },
+          "mintLimit" : {
+            "id": 2,
+            "limit": 5
+          }
+        }
+      },
+      {
+        "label": "Public",
+        "guards": {
+          "startDate": {
+            "date": "2024-02-02 12:00:00 +0000"
+          },
+          "solPayment": {
+            "value": 2.50,
+            "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
+          }
+        }
+      }
+    ]
+  },
+  "maxEditionSupply": null
+}

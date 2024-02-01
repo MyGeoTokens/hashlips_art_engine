@@ -53,7 +53,8 @@ build/
 dist/
 node_modules/
 jspm_packages/
-my-geo-sugar/
+my-geo-sugar/main/assets/
+my-geo-sugar/test/assets/
 key/
 
 # TypeScript v1 declaration files

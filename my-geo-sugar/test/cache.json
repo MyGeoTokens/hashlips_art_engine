@@ -1,0 +1,266 @@
+{
+  "program": {
+    "candyMachine": "DcvBmSEoWqF8KEs785YhaRnrQ9pr8w2nnLxfPxGpcZe9",
+    "candyGuard": "7njf449uv7UXTMU5iCrNETnY54qRptdPedaMB7SXbDqc",
+    "candyMachineCreator": "CjXcz67z3gcoX9TbKmSmiaVAriuK6g8S5GY4ynRkcnWN",
+    "collectionMint": "9sMeEFsaRbP7h3Ve8WVQZZaLuCS3fNyrzDi6PrpYZJid"
+  },
+  "items": {
+    "-1": {
+      "name": "MyGeoTokens",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://mygeotokens.com/wp-content/uploads/2023/05/My-Geo-Tokens-The-Worlds-First-Geospatial-NFT-Marketplace.gif",
+      "metadata_hash": "c02c8c74e70d4b75def0901a6f5f28caaf10e02bb0cdc6db03c9cdaba6a4d225",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeifmkqfyl745qxg2llhavvz5ii3ctzosv4yifgvflgz4brqyieokbq/collection.json",
+      "onChain": true
+    },
+    "0": {
+      "name": "Your Collection #0",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/0.png",
+      "metadata_hash": "6a12c5b30342304fcb6132e742065863dd94dc6c37bf845d076926c913f11def",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "Your Collection #1",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/1.png",
+      "metadata_hash": "0f703023d7008812702ea36a7add089efff95953300e36ffcc4948d13c8f5ae4",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "Your Collection #2",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/2.png",
+      "metadata_hash": "bfeb6b5c29dd6bef877edc7dcd46b87fdf26333b6ac4c013b0afee647ab8332d",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/2.json",
+      "onChain": true
+    },
+    "3": {
+      "name": "Your Collection #3",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/3.png",
+      "metadata_hash": "a4aafadfb0309a053a056cb8b324294ebef34796f32cfe38ea20a54531c13fac",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/3.json",
+      "onChain": true
+    },
+    "4": {
+      "name": "Your Collection #4",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/4.png",
+      "metadata_hash": "20d3f0e9a61a1cfd068c7a7b20aa54d87de6694de216c21a51ed9c28f0897e3b",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/4.json",
+      "onChain": true
+    },
+    "5": {
+      "name": "Your Collection #5",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/5.png",
+      "metadata_hash": "f7c4b6f1123784353526fde8b838d91018accefa910df1ec4c3313b93fdf98f2",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/5.json",
+      "onChain": true
+    },
+    "6": {
+      "name": "Your Collection #6",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/6.png",
+      "metadata_hash": "31b4d11348a43ce7fc22dae84c8a9a745b8ada8414d876af5425b4cc2f213d70",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/6.json",
+      "onChain": true
+    },
+    "7": {
+      "name": "Your Collection #7",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/7.png",
+      "metadata_hash": "830d4b4eda5fbcdcfc9a4f13ffbcc3bc72440cd47f15bccd7bdf1a32098a4477",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/7.json",
+      "onChain": true
+    },
+    "8": {
+      "name": "Your Collection #8",
+      "image_hash": "9861a18f333c752f3d37a4e185481822a85089d133261af5a5be161b7e2423f3",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/8.png",
+      "metadata_hash": "0ecf32a508d49214549ddfeb06939b0da0a91f0c232673db2a65c91af036f80f",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/8.json",
+      "onChain": true
+    },
+    "9": {
+      "name": "Your Collection #9",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/9.png",
+      "metadata_hash": "af27805d8b251a79fd747347c0849d0e60dbc2977341b13b4e58d09962a50ac8",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/9.json",
+      "onChain": true
+    },
+    "10": {
+      "name": "Your Collection #10",
+      "image_hash": "61309a2c1d794619218a1d5bdc4f58231e966dd4f45b7632ab98bc1e3aefb37e",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/10.png",
+      "metadata_hash": "0edf55fc923e1350d01dd074305dd2fe90bdf5001da0e43f4c6cf7e079c622bc",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/10.json",
+      "onChain": true
+    },
+    "11": {
+      "name": "Your Collection #11",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/11.png",
+      "metadata_hash": "2c59e68b0edaa2c09e5a2edb0d357b48e8c242dca474c5303d99a23a00dd6125",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/11.json",
+      "onChain": true
+    },
+    "12": {
+      "name": "Your Collection #12",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/12.png",
+      "metadata_hash": "ca1e6ffdf20b5e512bf3a0942dbf1f3c8b70b7f73f995be698299127a4e47ead",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/12.json",
+      "onChain": true
+    },
+    "13": {
+      "name": "Your Collection #13",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/13.png",
+      "metadata_hash": "a8c0817c34ebbb7b08407bac309535dc0425088427498ef6380ee382695ccf46",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/13.json",
+      "onChain": true
+    },
+    "14": {
+      "name": "Your Collection #14",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/14.png",
+      "metadata_hash": "225e4cc699ec5bf4d57365e3c76c74d8006c8d621b65c075b80d0b5767d20442",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/14.json",
+      "onChain": true
+    },
+    "15": {
+      "name": "Your Collection #15",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/15.png",
+      "metadata_hash": "35b57004284e5af2d5b07d4eda71641c6d52e5d2e58a21a09ffa573a124fae86",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/15.json",
+      "onChain": true
+    },
+    "16": {
+      "name": "Your Collection #16",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/16.png",
+      "metadata_hash": "6971ca805116049533724110188b441b6c4080b762976d6e31acada37b2fc073",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/16.json",
+      "onChain": true
+    },
+    "17": {
+      "name": "Your Collection #17",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/17.png",
+      "metadata_hash": "577dfe851b0e27e526fe7d5beea80efc8e2b19949270500b813dca04a8db2d4e",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/17.json",
+      "onChain": true
+    },
+    "18": {
+      "name": "Your Collection #18",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/18.png",
+      "metadata_hash": "d6f77480f11cb0f084fb53b409635e3832919233a9c65f462c8758accf82588b",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/18.json",
+      "onChain": true
+    },
+    "19": {
+      "name": "Your Collection #19",
+      "image_hash": "9861a18f333c752f3d37a4e185481822a85089d133261af5a5be161b7e2423f3",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/19.png",
+      "metadata_hash": "fcac7125089d6ca3be9d0ceac099533ef7c3e966c4e61948b1e5ce6baffc291f",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/19.json",
+      "onChain": true
+    },
+    "20": {
+      "name": "Your Collection #20",
+      "image_hash": "9861a18f333c752f3d37a4e185481822a85089d133261af5a5be161b7e2423f3",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/20.png",
+      "metadata_hash": "7387c44bf87caa9f571834969e0ff9e498a4bcd50edbac7e3c0fd488c41dd14a",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/20.json",
+      "onChain": true
+    },
+    "21": {
+      "name": "Your Collection #21",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/21.png",
+      "metadata_hash": "fab3b093a000cb3dfa383495095dae7971fea4301d76545953257bded2596a97",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/21.json",
+      "onChain": true
+    },
+    "22": {
+      "name": "Your Collection #22",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/22.png",
+      "metadata_hash": "c4e340adfe2c330a3a0535eee8924df0557d8215af4d9117ea230a2d3b7ea15c",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/22.json",
+      "onChain": true
+    },
+    "23": {
+      "name": "Your Collection #23",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/23.png",
+      "metadata_hash": "7ff52f463eb5ec9771f6aa7d8799461a0fb51fa464b21939bc99e3e4f56819ed",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/23.json",
+      "onChain": true
+    },
+    "24": {
+      "name": "Your Collection #24",
+      "image_hash": "262f76e6799bf736ab23509bfea8de5ca04cbce492a84bffc0ebbd57762442ab",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/24.png",
+      "metadata_hash": "43ea629fde09d4692587775f507752534c0d5f5ef9da0722611fa2c54880350a",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/24.json",
+      "onChain": true
+    },
+    "25": {
+      "name": "Your Collection #25",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/25.png",
+      "metadata_hash": "2bd0315d4b904f2855beb202ee1ff32aa808a3a393a18a0911b7920b7da1a212",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/25.json",
+      "onChain": true
+    },
+    "26": {
+      "name": "Your Collection #26",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/26.png",
+      "metadata_hash": "52e13419dc6ec4056010ca1cdf9506732c18d1a9bc2628910dff7385f0f24db2",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/26.json",
+      "onChain": true
+    },
+    "27": {
+      "name": "Your Collection #27",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/27.png",
+      "metadata_hash": "b67ef258973da90742ff7df62457b15e5cbe67f9b6ff6d8666beb923b01b26ba",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/27.json",
+      "onChain": true
+    },
+    "28": {
+      "name": "Your Collection #28",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/28.png",
+      "metadata_hash": "68c192d3089313d807c104010f416d66c53a87f53fde841eb2ff49f7985f89f2",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/28.json",
+      "onChain": true
+    },
+    "29": {
+      "name": "Your Collection #29",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/29.png",
+      "metadata_hash": "a7d57d2104dcaeb59b2b5a7c1678cbec97923f6d4a61e5821117642e0714527f",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/29.json",
+      "onChain": true
+    },
+    "30": {
+      "name": "Your Collection #30",
+      "image_hash": "a2322f2283871143c08e5208ded1dc6f2215269e8aa568f4f1753923591107a1",
+      "image_link": "https://nftstorage.link/ipfs/bafybeifsz3dojgnsflbh7eup3r3ye2nglxdcu766shqnofay7qlly7n3yu/30.png",
+      "metadata_hash": "06d2faaae0e4a5f2f610c123f1d7f70b1c111e3424d7524ea2896d98f690f556",
+      "metadata_link": "https://nftstorage.link/ipfs/bafybeigl7mb7akzmfxjqxg5mczcubn62hiclwr72cqwwxvubotjzvtlk7q/30.json",
+      "onChain": true
+    }
+  }
+}
