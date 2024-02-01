@@ -1,2 +1,2 @@
-{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"Lyghtcode","pid":8892,"time":"2024-01-19T18:56:50.3701629Z","target":"sugar","line":123,"file":"src/main.rs"}
-{"v":0,"name":"sugar","msg":"Cache file 'cache.json' not found. Run `sugar upload` to create it or provide it with the --cache option.","level":50,"hostname":"Lyghtcode","pid":8892,"time":"2024-01-19T18:56:50.3708799Z","target":"sugar_cli::cache","line":157,"file":"src\\cache.rs"}
+{"v":0,"name":"sugar","msg":"Lend me some sugar, I am your neighbor.","level":30,"hostname":"Lyghtcode","pid":47432,"time":"2024-02-01T15:56:21.188681Z","target":"sugar","line":123,"file":"src/main.rs"}
+{"v":0,"name":"sugar","msg":"Cache file 'cache.json' not found. Run `sugar upload` to create it or provide it with the --cache option.","level":50,"hostname":"Lyghtcode","pid":47432,"time":"2024-02-01T15:56:21.1891957Z","target":"sugar_cli::cache","line":157,"file":"src\\cache.rs"}

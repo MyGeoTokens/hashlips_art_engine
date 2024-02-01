@@ -54,14 +54,14 @@
         "label": "OGs",
         "guards": {
           "startDate": {
-            "date": "2024-02-01 00:00:00 +0000"
+            "date": "2024-02-01T16:45:00Z"
           },
           "solPayment": {
             "value": 2.00,
             "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
           },
           "allowList" : {
-            "merkleRoot": "c16d2995b046d8527518a8170c0f663545814e5e333e539811ad77d4d32ad39a"
+            "merkleRoot": "f1154956d79cf8e60ba5479c8104b0adb89f1005d70c99341b8003c8c548cf07"
           },
           "allocation" : {
             "id": 2,
@@ -77,7 +77,7 @@
         "label": "Public",
         "guards": {
           "startDate": {
-            "date": "2024-02-02 12:00:00 +0000"
+            "date": "2024-02-02T16:59:00Z"
           },
           "solPayment": {
             "value": 2.50,
