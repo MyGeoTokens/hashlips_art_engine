@@ -61,7 +61,7 @@
             "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
           },
           "allowList" : {
-            "merkleRoot": "d33fb2f3695259a9963a6911d3be9168de4f3e075a01f96a29c9e20f8f749417"
+            "merkleRoot": "9687f9e3821849a6e2a9469229f217936ab91e77e8ada143b20a05100bd4a94c"
           },
           "allocation" : {
             "id": 2,
@@ -77,7 +77,7 @@
         "label": "Public",
         "guards": {
           "startDate": {
-            "date": "2024-02-02T16:59:00Z"
+            "date": "2024-02-10T16:59:00Z"
           },
           "solPayment": {
             "value": 2.50,
