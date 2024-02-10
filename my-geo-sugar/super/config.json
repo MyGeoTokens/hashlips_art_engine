@@ -1,0 +1,31 @@
+{
+  "tokenStandard": "nft",
+  "number": 33,
+  "symbol": "MGT",
+  "sellerFeeBasisPoints": 0,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "nft_storage",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGI3MkJBQTdjNzFlNDNENDBlZjY5NDZCMUQ2MDc2YmFDOTI1MDY2Y0YiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTcwNTYwMDU0MzE1OCwibmFtZSI6Ik15R2VvVG9rZW5zIn0.8NAUIEDCmkVW5NyJ3_gr8yCCcGIm0-GZejcVU5vA0Uk",
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+   "guards": {
+    "default": {
+      "botTax": {
+        "value": 0.01,
+        "lastInstruction": true
+      }
+    }
+  },
+  "maxEditionSupply": null
+}

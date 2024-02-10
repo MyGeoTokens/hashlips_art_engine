@@ -28,6 +28,29 @@
     },
     "groups": [
       {
+        "label": "Free",
+        "guards": {
+          "startDate": {
+            "date": "2024-01-31 00:00:00 +0000"
+          },
+          "solPayment": {
+            "value": 0.00,
+            "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
+          },
+          "allowList" : {
+            "merkleRoot": "c16d2995b046d8527518a8170c0f663545814e5e333e539811ad77d4d32ad39a"
+          },
+          "allocation" : {
+            "id": 1,
+            "limit": 8
+          },
+          "mintLimit" : {
+            "id": 1,
+            "limit": 1
+          }
+        }
+      },
+      {
         "label": "OGs",
         "guards": {
           "solPayment": {
@@ -35,7 +58,7 @@
             "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
           },
           "allowList" : {
-            "merkleRoot": "78e90a502775eca0ae911c427e7602653ef0ff6be462a009842bb91863b53f30"
+            "merkleRoot": "9687f9e3821849a6e2a9469229f217936ab91e77e8ada143b20a05100bd4a94c"
           },
           "allocation" : {
             "id": 2,
@@ -50,9 +73,6 @@
       {
         "label": "Public",
         "guards": {
-          "startDate": {
-            "date": "2024-01-31 00:00:00 +0000"
-          },
           "solPayment": {
             "value": 2.50,
             "destination": "Cpvny1jUFwkAQtiCUVQFikZYBsVXu4BfsnczkHR8hnix"
